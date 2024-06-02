@@ -1,0 +1,26 @@
+/**
+  * @name Avali Scratch
+  * @author xhayper
+  * @version 1.0.0
+  * @description Change Discord font to Avali Scratch
+  * @authorId 963761708818653205
+  * @authorLink https://hayper.xyz/
+  * @source 
+  * @website 
+  * @invite 
+*/
+
+:root {
+    --font-primary: 'Avali Scratch', 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    --font-display: 'Avali Scratch', 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    --font-headline: 'Avali Scratch', 'ABC Ginto Nord', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    --font-code: 'gg mono', 'Source Code Pro', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;
+    --font-clan-body: 'Avali Scratch', Fraunces, 'gg sans', serif, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    --font-clan-signature: 'Avali Scratch', Corinthia, 'gg sans', cursive, 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+}
+
+html {
+    /* We need it or it will be barely readable */
+    font-size: 150% !important;
+    letter-spacing: .125rem;
+}
